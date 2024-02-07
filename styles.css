@@ -33,7 +33,7 @@ body {
 .logo {
     background: url('oi_logo.png') no-repeat center center / contain;
     width: 100%; /* Make the logo responsive to the container's width */
-    height: 12vh; /* Adjust this value based on your preference */
+    height: 20vh; /* Adjust this value based on your preference */
 }
 
 /* Header and footer */
