@@ -1,0 +1,121 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a natural box layout model to all elements */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Body and typography styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Logo image style */
+header img {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    padding: 1rem 0;
+}
+
+/* About section styles */
+#about {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #007bff; /* A blue accent on the left */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Dark and Light mode color scheme */
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #e1e1e1;
+    }
+
+    header, footer {
+        background: #222;
+    }
+
+    nav a {
+        color: #ddd;
+    }
+
+    #about {
+        background: #2c2c2c;
+        border-color: #007bff; /* Keep the blue accent on the left */
+    }
+}
