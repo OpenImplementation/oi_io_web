@@ -40,6 +40,8 @@ body {
     margin-bottom: 20px;
     border-left: 4px solid var(--accent-color);
 }
+
+
 ul {
     padding-left: 20px; /* Adjust as needed for desired indentation */
 }
