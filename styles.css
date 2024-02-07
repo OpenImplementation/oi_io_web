@@ -30,10 +30,18 @@ body {
     background-color: var(--background-color);
 }
 
-.logo {
-    background: url('oi_logo.png') no-repeat center center / cover;
-    width: 100%; /* This will make the logo span the full width of its container */
-    height: 20vh; /* Adjust this value based on your preference */
+.logo-container {
+    text-align: center; /* Horizontally centers inline-block and inline elements */
+}
+
+.section-with-line {
+    padding: 20px;
+    background: var(--background-color);
+    margin-bottom: 20px;
+    border-left: 4px solid var(--accent-color);
+}
+ul {
+    padding-left: 20px; /* Adjust as needed for desired indentation */
 }
 
 
