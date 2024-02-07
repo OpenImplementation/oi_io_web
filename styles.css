@@ -9,6 +9,16 @@ body, h1, h2, h3, p, ul, li, figure, figcaption {
     box-sizing: border-box;
 }
 
+.logo {
+    background-image: url('oi_logo.png');
+    max-width: 100%;
+    height: auto; /* You will need to set a specific height for the div here */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
 /* Body and typography styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,12 +37,6 @@ header {
     text-align: center;
 }
 
-/* Logo image style */
-header img {
-    max-width: 180px;
-    height: auto;
-    margin-bottom: 10px;
-}
 
 /* Navigation styles */
 nav {
