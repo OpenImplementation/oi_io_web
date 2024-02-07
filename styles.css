@@ -31,10 +31,11 @@ body {
 }
 
 .logo {
-    background: url('oi_logo.png') no-repeat center center / contain;
-    width: 90%; /* Make the logo responsive to the container's width */
- 
+    background: url('oi_logo.png') no-repeat center center / cover;
+    width: 100%; /* This will make the logo span the full width of its container */
+    height: auto; /* Adjust based on the logo's aspect ratio and your design needs */
 }
+
 
 /* Header and footer */
 header, footer {
