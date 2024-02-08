@@ -147,15 +147,7 @@ footer a:hover {
 }
 
 
-/* Dark mode colors adjustment */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #121212;
-        --text-color: #ffffff; /* Making all text whiter in dark mode */
-        --header-footer-bg: #222;
-        --link-color: #ddd;
-        --about-bg: #2c2c2c;
-    }
+
 
     /* You might want to ensure this applies to all text elements, including nav a */
     body, h1, h2, h3, p, ul, li, figure, figcaption, header, footer, main, nav a, #about {
