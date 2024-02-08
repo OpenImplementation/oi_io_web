@@ -30,8 +30,12 @@ body {
     background-color: var(--background-color);
 }
 
+
 .logo-container {
-    text-align: center; /* Horizontally centers inline-block and inline elements */
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    display: block; /* Or 'inline-block', 'flex', etc. as needed */
+    /* Add any other properties as needed */
 }
 
 .section-with-line {
