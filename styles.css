@@ -5,7 +5,7 @@
     --accent-color: #007bff; /* Bright blue for accents */
     --text-color: #333; /* Dark grey, maintains readability on white */
     --header-footer-bg: #333; /* Dark grey, for header/footer contrasts */
-    --link-color: #007bff; /* Changed to bright blue for visibility on white */
+    --link-color: #0056b3; /* Changed to bright blue for visibility on white */
     --link-hover-decoration: underline; /* Keeps links underlined on hover for distinction */
 }
 
