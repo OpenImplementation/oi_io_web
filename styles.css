@@ -127,6 +127,25 @@ h2 {
     }
 }
 
+/* Header and Footer adjustments for better readability */
+header, footer {
+    background: #e9ecef; /* Light gray for subtle contrast, easier on the eyes */
+    color: #333; /* Darker text color for better readability */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Maintain link color in the footer for consistency and readability */
+footer a {
+    color: var(--accent-color); /* Accent color for links to stand out */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adds underline on hover for visual feedback */
+}
+
+
 /* Dark mode colors adjustment */
 @media (prefers-color-scheme: dark) {
     :root {
