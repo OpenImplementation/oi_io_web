@@ -47,6 +47,16 @@ ul {
 }
 
 
+.custom-link-color {
+    color: inherit; /* This makes the color the same as the parent text */
+    text-decoration: none; /* Removes underline */
+}
+
+.custom-link-color:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+
 /* Header and footer */
 header, footer {
     background: var(--header-footer-bg);
