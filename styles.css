@@ -1,13 +1,14 @@
 /* Root definition for CSS custom properties */
 :root {
-    --primary-color: #333;
-    --background-color: #f4f4f4;
-    --accent-color: #007bff;
-    --text-color: #333;
-    --header-footer-bg: #333;
-    --link-color: #fff;
-    --link-hover-decoration: underline;
+    --primary-color: #333; /* Dark grey, good for primary elements */
+    --background-color: #fff; /* White background */
+    --accent-color: #007bff; /* Bright blue for accents */
+    --text-color: #333; /* Dark grey, maintains readability on white */
+    --header-footer-bg: #333; /* Dark grey, for header/footer contrasts */
+    --link-color: #007bff; /* Changed to bright blue for visibility on white */
+    --link-hover-decoration: underline; /* Keeps links underlined on hover for distinction */
 }
+
 
 /* Universal box-sizing */
 *,
