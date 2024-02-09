@@ -9,6 +9,15 @@
     --link-hover-decoration: underline; /* Keeps links underlined on hover for distinction */
 }
 
+a {
+    color: var(--link-color); /* Apply the custom link color to all links */
+    text-decoration: none; /* Optional: Removes underline from all links */
+}
+
+a:hover {
+    text-decoration: var(--link-hover-decoration); /* Reapply underline on hover */
+}
+
 
 /* Universal box-sizing */
 *,
