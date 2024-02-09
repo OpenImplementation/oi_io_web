@@ -162,4 +162,3 @@ footer a:hover {
     body, h1, h2, h3, p, ul, li, figure, figcaption, header, footer, main, nav a, #about {
         color: var(--text-color); /* Applying the whiter text color */
     }
-}
